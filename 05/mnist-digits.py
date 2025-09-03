@@ -16,10 +16,10 @@ print("- tf.Keras", tf.keras.__version__)
 # Dataset MNIST, que está en storage.googleapis.com en TensorFlow/Keras
 mnist = tf.keras.datasets.mnist
 
-# Defino dos tuplas, cada una con dos arrays numpy
+# mnist.load_data() devuelve dos tuplas, cada una con dos elementos tipo array numpy
 # Train: Tupla conjunto de entrenamiento
 # Test: Tupla conjunto de prueba
-# En cada tupla, la primera matriz son imagenes y la segunda sus etiquetas
+# El primer elemento es la matriz de imagenes y el segundo la matriz de etiquetas
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
 # Preprocesado del dataset -> adaptar los datos para usarlos en la red neuronal

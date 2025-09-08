@@ -1,3 +1,6 @@
+# Ejemplo con TensorFlow y Keras
+# Datos de entrenamiento y test numéricos
+
 import sys
 import numpy as np
 import tensorflow as tf

@@ -1,3 +1,6 @@
+# Ejemplo con TensorFlow y Keras
+# Datos de entrenamiento y test numéricos
+
 import numpy as np
 
 def load_data():

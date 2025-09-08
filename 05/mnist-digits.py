@@ -22,6 +22,7 @@ mnist = tf.keras.datasets.mnist
 # El primer elemento es la matriz de imagenes y el segundo la matriz de etiquetas
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
+
 # Preprocesado del dataset -> adaptar los datos para usarlos en la red neuronal
 # Normalización: de uint8 [0 - 255] a float32 [0 - 1]
 train_images = train_images.astype('float32')
